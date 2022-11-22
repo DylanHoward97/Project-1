@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+
 /* Home Page */
+
 .container{
     width: 100%;
     height: 94vh;
@@ -14,85 +16,103 @@
     padding: 0 8%;
     position: relative;
 }
+
 .text-box{
     color:#fff;
     position: absolute;
     top: 8%; 
 }
+
 .text-box p{
     font-size: 50px;
     font-weight: 600;
 }
+
 .text-box h1{
     font-size: 100px;
     line-height: 160px;
     margin-left: -10px;
 }
+
 .text-box h3{
     font-size: 30px;
     font-weight: 500;
 }
+
 .header {
     padding: 30px; 
     text-align: center; 
     background: rgb(134 2 15);
     color: white; 
-  }
-  .header h1 {
+}
+
+.header h1 {
     font-size: 40px;
-  }
+}
   
   /* other pages */
 
 * {
     box-sizing: border-box;
-  }
-  .row {
+}
+.row {
     display: flex;
     flex-wrap: wrap;
-  }
-  .side {
+}
+
+.side {
     flex: 30%; 
     background-color: #e9e7db; 
     padding: 20px; 
     margin-right: -50px;
     list-style: none;
-  }
-  .side ul li {
+}
+
+.side ul li {
     font-family: century;
     font-size: 1.1rem;
     font-weight: bold;
-  }
-  .side ul li a{
+}
+
+.side ul li a{
     text-decoration: none;
     color:rgb(0, 0, 0);
     padding: 8px 25px;
     transition: all .5s ease;
 }
+
 .side ul li a:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
-  .main {
+
+.main {
     flex: 70%; 
     background-color: rgb(193 187 153);  
     padding: 20px; 
-  }
-  .main img {
+}
+
+.main img {
     height:600px;
-    width: 500px;
-  }
-  .main ul li {
+    width: 600px;
+    display: inline-block;
+    padding: 2%;
+    border: 5px solid black;
+}
+
+.main ul li {
     font-family: century;
     font-size: 1.5rem;
-  }
-  article {
+}
+
+article {
     display: inline-block;
-    width: 350px;
+    width: 400px;
     height: 500px;
     padding: 20px;
 }
+
 ul {
     padding-left: 50px;
 }
@@ -102,10 +122,6 @@ li {
     list-style: none;
 }
 
-img {
-    display: inline-block;
-    width: 300px;     
-}
 
 /* Footer*/
 
@@ -117,22 +133,26 @@ img {
     position: sticky;
     top: 0;
 }
+
 .social ul{
     display: flex;
     list-style: none;
     margin: 20px 0px;
 }
+
 .social ul li{
     font-family: century;
     font-size: 1.1rem;
     font-weight: bold;
 }
+
 .social ul li a{
     text-decoration: none;
     color:white;
     padding: 8px 25px;
     transition: all .5s ease;
 }
+
 .social ul li a:hover{
     background-color: white;
     color: black;
@@ -149,22 +169,26 @@ img {
     position: sticky;
     top: 0;
 }
+
 .navbar ul{
     display: flex;
     list-style: none;
     margin: 20px 0px;
 }
+
 .navbar ul li{
     font-family: century;
     font-size: 1.1rem;
     font-weight: bold;
 }
+
 .navbar ul li a{
     text-decoration: none;
     color:white;
     padding: 8px 25px;
     transition: all .5s ease;
 }
+
 .navbar ul li a:hover{
     background-color: white;
     color: black;
